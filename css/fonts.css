@@ -83,3 +83,15 @@
     font-weight: 500;
     font-style: normal;
 }
+@font-face{
+    font-family: Roboto-light;
+    src: url(../Assets/Roboto/Roboto-Light.ttf);
+    font-weight: 300;
+    font-style: normal;
+}
+@font-face{
+    font-family: Roboto-thin;
+    src:url(../Assets/Roboto/Roboto-Thin.ttf);
+    font-weight: 100;
+    font-style: normal;
+}
