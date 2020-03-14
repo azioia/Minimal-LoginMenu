@@ -1,3 +1,4 @@
+/* This is vazar font css for persian lang*/
 @font-face {
     font-family: Vazir;
     src: url('Vazir.eot');
@@ -56,5 +57,29 @@
          url('Vazir-Thin.woff') format('woff'),
          url('Vazir-Thin.ttf') format('truetype');
     font-weight: 100;
+    font-style: normal;
+}
+
+
+
+/*This is Robot font for EN lang*/
+
+
+@font-face{
+    font-family: Roboto;
+    font-weight: normal;
+    font-style: normal;
+    src:url(../Assets/Roboto/Roboto-Regular.ttf);
+}
+@font-face{
+    font-family: Roboto;
+    src:url(../Assets/Roboto/Roboto-Bold.ttf);
+    font-weight: bold;
+    font-style: normal;
+}
+@font-face{
+    font-family: Roboto-Medium;
+    src:url(../Assets/Roboto/Roboto-Medium.ttf);
+    font-weight: 500;
     font-style: normal;
 }
