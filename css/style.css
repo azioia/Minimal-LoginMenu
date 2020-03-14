@@ -1,0 +1,33 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+}
+#main {
+    width: 30vw;
+    height: 80vh;
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
+#header p {
+    font-weight: bold;
+    text-align: center;
+    font-size: 2.2rem;
+}
+#nav{
+    display: flex;
+    justify-content: center;
+}
+#nav img {
+    width: 10vw;
+    border-radius: 50%;
+    height: 15vh;
+}
+#form {
+    display: flex;
+    justify-content: center;
+}
