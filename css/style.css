@@ -8,7 +8,6 @@ body {
 #main {
     width: 30vw;
     height: 80vh;
-    border: 1px solid black;
     display: flex;
     justify-content: space-around;
     flex-direction: column;
@@ -33,6 +32,27 @@ body {
 }
 #form input[type=text],input[type=password]{
     font-family: Roboto-thin;
-    border:none;
+    border: none;
     outline: none;
+    font-size: 0.9rem;
+    border-bottom: 2px solid #d2d2d2;
+}
+#form input[type=submit]{
+    font-family: Roboto-Medium;
+    color: white;
+    background-color: yellowgreen;
+    outline: none;
+    cursor: pointer;
+    font-size: 1.1rem;
+    padding: 15px 100px;
+    border-radius: 25px;
+}
+#footer p{
+    font-family: Roboto-thin;
+    color: #797979;
+    cursor: pointer;
+    text-align: center;
+}
+#footer p:hover{
+    color: black;
 }
